@@ -1,0 +1,8 @@
+{
+  "users": [
+    { "name": "Yash Rathod", "email": "yash@gmail.com", "role": "admin" },
+    { "name": "Pratham Gala", "email": "pratham@gmail.com", "role": "user" },
+    { "name": "Sahil Mehta", "email": "sahil@gmail.com", "role": "user" },
+    { "name": "Aisha Khan", "email": "aisha@gmail.com", "role": "admin" }
+  ]
+}

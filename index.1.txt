@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User List – Handlebars</title>
+
+    <!-- Tailwind + DaisyUI -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.2/dist/full.css" rel="stylesheet" />
+
+    <!-- Handlebars -->
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+</head>
+<body class="bg-base-200 p-6">
+
+    <h1 class="text-3xl font-bold text-center mb-6">User List (Handlebars Project)</h1>
+
+    <div id="user-container" class="grid md:grid-cols-3 gap-4"></div>
+
+    <!-- Handlebars Template -->
+    <script id="user-template" type="text/x-handlebars-template">
+        {{#each users}}
+        <div class="card bg-base-100 shadow-xl border {{#if (eq role 'admin')}}border-red-500{{/if}}">
+            <div class="card-body">
+                <h2 class="card-title">{{name}}</h2>
+                <p>Email: {{email}}</p>
+                <p>Role: <span class="{{#if (eq role 'admin')}}text-red-500 font-bold{{/if}}">{{role}}</span></p>
+            </div>
+        </div>
+        {{/each}}
+    </script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
