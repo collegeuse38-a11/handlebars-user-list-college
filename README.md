@@ -1,2 +1,3 @@
 # handlebars-user-list-college
 A dynamic user list built using Handlebars.js, JSON data, Tailwind CSS, and DaisyUI. The template highlights admin users using conditional logic and reusable partials. Fully responsive and easy to extend, this project demonstrates simple dynamic rendering and clean UI with modern frontend tools.
+A dynamic user list built using Handlebars.js, JSON data, Tailwind CSS, and DaisyUI. The template highlights admin users using conditional logic and reusable partials. Fully responsive and easy to extend, this project demonstrates simple dynamic rendering and clean UI with modern frontend tools.
